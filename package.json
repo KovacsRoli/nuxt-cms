@@ -3,11 +3,22 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "test:unit": "vitest --config ./vitest.config.ts --coverage",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "3.0.0"
+    "@nuxtjs/tailwindcss": "^6.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "@typescript-eslint/parser": "^5.48.1",
+    "@vitest/coverage-c8": "^0.27.1",
+    "eslint": "^8.31.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-vue": "^9.8.0",
+    "nuxt": "3.0.0",
+    "typescript": "^4.9.4",
+    "vitest": "^0.27.1",
+    "webpack": "^5.75.0"
   }
 }
